@@ -21,9 +21,6 @@ def bfs(graph, start, visited):
             if not visited[i]:
                 queue.append(i)
                 visited[i] = True
-        
-    
-
 
 # 0번지는 비워준다.
 # 1번 노드의 인접부터 검사하기 때문
